@@ -1,7 +1,6 @@
 'use client'
 import Card from "@/components/display/card";
 import { useCallback, useEffect, useState } from "react";
-import { auctionType, bidType, walletType } from "../../../../../types/collections";
 import Image from "next/image";
 import Layout from "@/components/display/layout";
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
@@ -9,7 +8,9 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { CountdownCircleTimer } from 'react-countdown-circle-timer';
 import { useAuth } from "@/components/providers/supabase-auth-provider";
-import { createClientB } from "../../../../../utils/supabase-browser";
+import { auctionType, walletType } from "@/types/collections";
+import { createClientB } from "@/utils/supabase-browser";
+
 
 
 

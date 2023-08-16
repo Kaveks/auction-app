@@ -9,18 +9,13 @@
     "lint": "next lint",
     "gen-types": " supabase gen types typescript --linked > types/supabase.ts"
   },
-
+  
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.6",
-    "@mui/styles": "^5.13.2",
     "@mui/x-data-grid": "^6.9.2",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-dialog": "^1.0.4",
@@ -47,7 +42,6 @@
     "next": "13.4.3",
     "postcss": "8.4.23",
     "react": "18.2.0",
-    "react-card-flip": "^1.2.0",
     "react-countdown-circle-timer": "^3.2.1",
     "react-dom": "18.2.0",
     "react-spinners": "^0.13.8",

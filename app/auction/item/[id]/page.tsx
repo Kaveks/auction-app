@@ -327,7 +327,7 @@ const AuctionItem = ({params}:{params:{id:string}}) => {
                                         <DataGrid
                                             rows={rows}
                                             columns={columns}
-                                            // style={{ color: 'rgb(30 41 59)' }}
+                                            style={{ color: 'rgb(30 41 59)' }}
                                             initialState={{
                                             pagination: {
                                             paginationModel: { page: 0, pageSize:6},

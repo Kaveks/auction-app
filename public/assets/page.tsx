@@ -1,4 +1,4 @@
-import userProfile from "./images/userprofile.ico"
+import userProfile from "./images/userProfile.ico"
 
 export{
     userProfile,
